@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python download_and_process.py --dataname <dataset_name>
 ```
 
-## Generating Synthetic Data with RES-RAG
+## Generating Synthetic Data and Evaluating with RES-RAG
 ```shell
 bash commands/run.sh
 ```
