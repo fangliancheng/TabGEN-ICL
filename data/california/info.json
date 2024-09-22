@@ -1,0 +1,173 @@
+{
+    "name": "caliornia",
+    "task_type": "multiclass",
+    "header": "infer",
+    "column_names": [
+        "longitude",
+        "latitude",
+        "housing_median_age",
+        "total_rooms",
+        "total_bedrooms",
+        "population",
+        "households",
+        "median_income",
+        "median_house_value",
+        "ocean_proximity"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ],
+    "cat_col_idx": [],
+    "target_col_idx": [
+        9
+    ],
+    "file_type": "csv",
+    "data_path": "data/california/california.csv",
+    "test_path": null,
+    "column_info": {
+        "0": {
+            "type": "numerical",
+            "max": -114.31,
+            "min": -124.35
+        },
+        "1": {
+            "type": "numerical",
+            "max": 41.95,
+            "min": 32.54
+        },
+        "2": {
+            "type": "numerical",
+            "max": 52.0,
+            "min": 1.0
+        },
+        "3": {
+            "type": "numerical",
+            "max": 39320.0,
+            "min": 2.0
+        },
+        "4": {
+            "type": "numerical",
+            "max": 6210.0,
+            "min": 1.0
+        },
+        "5": {
+            "type": "numerical",
+            "max": 35682.0,
+            "min": 3.0
+        },
+        "6": {
+            "type": "numerical",
+            "max": 5358.0,
+            "min": 1.0
+        },
+        "7": {
+            "type": "numerical",
+            "max": 15.0001,
+            "min": 0.4999
+        },
+        "8": {
+            "type": "numerical",
+            "max": 500001.0,
+            "min": 14999.0
+        },
+        "9": {
+            "type": "categorical",
+            "categorizes": [
+                "<1H OCEAN",
+                "NEAR OCEAN",
+                "ISLAND",
+                "INLAND",
+                "NEAR BAY"
+            ]
+        }
+    },
+    "train_num": 18389,
+    "test_num": 2044,
+    "idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    },
+    "idx_name_mapping": {
+        "0": "longitude",
+        "1": "latitude",
+        "2": "housing_median_age",
+        "3": "total_rooms",
+        "4": "total_bedrooms",
+        "5": "population",
+        "6": "households",
+        "7": "median_income",
+        "8": "median_house_value",
+        "9": "ocean_proximity"
+    },
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "2": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "3": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "4": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "5": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "6": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "7": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "8": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "9": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "name": "magic",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "Length",
+        "Width",
+        "Size",
+        "Conc",
+        "Conc1",
+        "Asym",
+        "M3Long",
+        "M3Trans",
+        "Alpha",
+        "Dist",
+        "class"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "cat_col_idx": [],
+    "target_col_idx": [
+        10
+    ],
+    "file_type": "csv",
+    "data_path": "data/magic/magic04.data",
+    "test_path": null,
+    "column_info": {
+        "0": {},
+        "type": "categorical",
+        "max": 466.4078,
+        "min": 5.5449,
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "categorizes": [
+            "h",
+            "g"
+        ]
+    },
+    "train_num": 17117,
+    "test_num": 1902,
+    "idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10
+    },
+    "idx_name_mapping": {
+        "0": "Length",
+        "1": "Width",
+        "2": "Size",
+        "3": "Conc",
+        "4": "Conc1",
+        "5": "Asym",
+        "6": "M3Long",
+        "7": "M3Trans",
+        "8": "Alpha",
+        "9": "Dist",
+        "10": "class"
+    },
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "2": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "3": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "4": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "5": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "6": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "7": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "8": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "9": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "10": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}

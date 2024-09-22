@@ -1,0 +1,11 @@
+,Column,Metric,Score
+0,0,RangeCoverage,1.0
+1,1,RangeCoverage,1.0
+2,2,RangeCoverage,0.9607843137254902
+3,3,RangeCoverage,0.4108550790986316
+4,4,RangeCoverage,0.480270574971815
+5,5,RangeCoverage,0.22654782925530426
+6,6,RangeCoverage,0.5295874556654844
+7,7,RangeCoverage,0.9576350671025228
+8,8,RangeCoverage,0.9639156127191228
+9,9,CategoryCoverage,0.8
