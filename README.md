@@ -4,7 +4,7 @@
 
 Create a new conda environment with Python 3.10. e.g:
 ```shell
-conda create -n cllm_env python=3.10
+conda create -n res_rag python=3.10
 ```
 
 Install the minimum requirements to run RES-RAG
