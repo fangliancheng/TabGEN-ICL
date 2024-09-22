@@ -1,2 +1,0 @@
-Shape score: nan
-Trend score: nan
