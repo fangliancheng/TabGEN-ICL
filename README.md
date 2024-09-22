@@ -7,7 +7,7 @@ Create a new conda environment with Python 3.10. e.g:
 conda create -n cllm_env python=3.10
 ```
 
-Install the minimum requirements to run CLLM
+Install the minimum requirements to run RES-RAG
  ```shell
 pip install -r requirements.txt
  ```
