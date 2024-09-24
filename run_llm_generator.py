@@ -79,13 +79,9 @@ if __name__ == '__main__':
         
         # get prompt
         if output_format == 'markdown':
-            analyzer_template, _, _ = markdown_templates(X_train_orig, y_train_orig, dataset=dataset, role='analyzer')
-            generator_template, format_instructions, example_df = markdown_templates(X_train_orig, y_train_orig, dataset=dataset, role='generator')
-            corrector_template, _, _ = markdown_templates(X_train_orig, y_train_orig, dataset=dataset, role='corrector')
+            generator_template, format_instructions, example_df = markdown_templates_RES_RAG(X_train_orig, y_train_orig, dataset=dataset, role='generator')
         elif output_format == 'json':
-            generator_template = json_templates_reflector(role='generator')
-            reflector_template = json_templates_reflector(role='reflector')
-            refiner_template = json_templates_reflector(role='refiner')
+            generator_template = json_templates_RES_RAG(role='generator')
             format_instructions = '{"JSON":[{col1:value1,col2:value2, ...}, {col1:value1,col2:value2, ...}, ...]}'
         
         retries = 4  
@@ -101,7 +97,6 @@ if __name__ == '__main__':
                 print(f'Running {dataset}, {model} --- {n_processes}')
                 df_llm = llm_gen(dataset,
                                  generator_template, 
-                                 reflector_template,
                                  openai_key=openai_api_details['openai_api_key'],
                                  n_samples=n_synthetic,
                                  example_df=example_df,
