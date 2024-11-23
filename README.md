@@ -1,4 +1,4 @@
-# RES-RAG
+# TabGEN-RAG
 
 ## Installation
 
