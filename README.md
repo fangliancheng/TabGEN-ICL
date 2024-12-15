@@ -1,13 +1,13 @@
-# RES-RAG
+# TabGen-RAG
 
 ## Installation
 
 Create a new conda environment with Python 3.10. e.g:
 ```shell
-conda create -n res_rag python=3.10
+conda create -n tabgen python=3.10
 ```
 
-Install the minimum requirements to run RES-RAG
+Install the minimum requirements to run TabGen-RAG
  ```shell
 pip install -r requirements.txt
  ```
