@@ -1,4 +1,4 @@
-# TabGen-RAG
+# TabGEN-RAG
 
 ## Installation
 
