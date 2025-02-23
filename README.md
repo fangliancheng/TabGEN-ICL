@@ -7,7 +7,7 @@ Create a new conda environment with Python 3.10. e.g:
 conda create -n tabgen python=3.10
 ```
 
-Install the minimum requirements to run TabGen-RAG
+Install the minimum requirements to run TabGEN-ICL
  ```shell
 pip install -r requirements.txt
  ```
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python download_and_process.py --dataname <dataset_name>
 ```
 
-## Generating Synthetic Data and Evaluating with RES-RAG
+## Generating Synthetic Data and Evaluating with TabGEN-ICL
 ```shell
 bash commands/run.sh
 ```
